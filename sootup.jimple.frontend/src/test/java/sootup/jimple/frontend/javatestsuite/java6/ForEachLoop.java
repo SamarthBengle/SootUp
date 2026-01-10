@@ -12,7 +12,7 @@ import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 /**
  * @author Kaustubh Kelkar
  */
-public class ForEachLoopIT extends JimpleTestSuiteBaseIT {
+public class ForEachLoop extends JimpleTestSuiteBaseIT {
 
   public MethodSignature getMethodSignature() {
     return identifierFactory.getMethodSignature(

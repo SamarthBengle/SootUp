@@ -12,7 +12,7 @@ import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 /**
  * @author Kaustubh Kelkar
  */
-public class LabelledLoopBreakIT extends JimpleTestSuiteBaseIT {
+public class LabelledLoopBreak extends JimpleTestSuiteBaseIT {
 
   public MethodSignature getMethodSignature() {
     return identifierFactory.getMethodSignature(

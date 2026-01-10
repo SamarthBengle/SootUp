@@ -11,7 +11,7 @@ import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 /**
  * @author Kaustubh Kelkar
  */
-public class VariableDeclarationIT extends JimpleTestSuiteBaseIT {
+public class VariableDeclaration extends JimpleTestSuiteBaseIT {
 
   @Test
   public void test() {

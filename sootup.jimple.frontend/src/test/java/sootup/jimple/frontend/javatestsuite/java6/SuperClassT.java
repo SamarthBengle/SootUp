@@ -8,12 +8,12 @@ import java.util.stream.Stream;
 import org.junit.jupiter.api.Test;
 import sootup.core.model.SootMethod;
 import sootup.core.signatures.MethodSignature;
-import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBase;
+import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 
 /**
  * @author Kaustubh Kelkar
  */
-public class SuperClassTest extends JimpleTestSuiteBase {
+public class SuperClassT extends JimpleTestSuiteBaseIT {
   public MethodSignature getMethodSignature() {
     return identifierFactory.getMethodSignature(
         getDeclaredClassSignature(), "superclassMethod", "void", Collections.emptyList());

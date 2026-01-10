@@ -13,7 +13,7 @@ import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 /**
  * @author Kaustubh Kelkar
  */
-public class DeclareIntIT extends JimpleTestSuiteBaseIT {
+public class DeclareInt extends JimpleTestSuiteBaseIT {
   public MethodSignature getMethodSignature() {
     return identifierFactory.getMethodSignature(
         getDeclaredClassSignature(), "declareIntMethod", "void", Collections.emptyList());

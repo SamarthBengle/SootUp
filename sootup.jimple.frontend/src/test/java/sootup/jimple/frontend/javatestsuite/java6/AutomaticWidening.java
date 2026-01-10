@@ -12,7 +12,7 @@ import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 /**
  * @author Kaustubh Kelkar
  */
-public class AutomaticWideningIT extends JimpleTestSuiteBaseIT {
+public class AutomaticWidening extends JimpleTestSuiteBaseIT {
   public MethodSignature getMethodSignature() {
     return identifierFactory.getMethodSignature(
         getDeclaredClassSignature(), "automaticWidening", "void", Collections.emptyList());

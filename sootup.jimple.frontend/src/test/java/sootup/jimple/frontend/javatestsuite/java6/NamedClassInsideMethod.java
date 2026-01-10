@@ -12,7 +12,7 @@ import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 /**
  * @author Kaustubh Kelkar
  */
-public class NamedClassInsideMethodIT extends JimpleTestSuiteBaseIT {
+public class NamedClassInsideMethod extends JimpleTestSuiteBaseIT {
   public MethodSignature getMethodSignature() {
     return identifierFactory.getMethodSignature(
         getDeclaredClassSignature(), "namedClassInsideMethod", "void", Collections.emptyList());

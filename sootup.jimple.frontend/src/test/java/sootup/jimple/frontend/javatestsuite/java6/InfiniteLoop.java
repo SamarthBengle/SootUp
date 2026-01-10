@@ -12,7 +12,7 @@ import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 /**
  * @author Markus Schmidt
  */
-public class InfiniteLoopIT extends JimpleTestSuiteBaseIT {
+public class InfiniteLoop extends JimpleTestSuiteBaseIT {
   public MethodSignature getMethodSignature() {
     return identifierFactory.getMethodSignature(
         getDeclaredClassSignature(), "stmtLoop", "void", Collections.emptyList());

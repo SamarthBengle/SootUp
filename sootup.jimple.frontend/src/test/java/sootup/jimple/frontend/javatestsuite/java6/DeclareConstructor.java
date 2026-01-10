@@ -14,7 +14,7 @@ import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 /**
  * @author Kaustubh Kelkar
  */
-public class DeclareConstructorIT extends JimpleTestSuiteBaseIT {
+public class DeclareConstructor extends JimpleTestSuiteBaseIT {
 
   public MethodSignature getMethodSignatureInitOneParam() {
     return identifierFactory.getMethodSignature(

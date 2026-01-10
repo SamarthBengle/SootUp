@@ -13,7 +13,7 @@ import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 /**
  * @author Kaustubh Kelkar, Bastian Haverkamp
  */
-public class MethodAcceptingLamExprIT extends JimpleTestSuiteBaseIT {
+public class MethodAcceptingLamExpr extends JimpleTestSuiteBaseIT {
 
   public MethodSignature getMethodSignature() {
     return identifierFactory.getMethodSignature(

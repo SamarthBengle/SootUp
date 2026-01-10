@@ -12,7 +12,7 @@ import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 /**
  * @author Kaustubh Kelkar
  */
-public class BinaryLiteralInIntIT extends JimpleTestSuiteBaseIT {
+public class BinaryLiteralInInt extends JimpleTestSuiteBaseIT {
   public MethodSignature getMethodSignature() {
     return identifierFactory.getMethodSignature(
         getDeclaredClassSignature(), "binaryLiteralInInt", "void", Collections.emptyList());

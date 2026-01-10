@@ -13,7 +13,7 @@ import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 /**
  * @author Kaustubh Kelkar
  */
-public class AnonymousDiamondOperatorIT extends JimpleTestSuiteBaseIT {
+public class AnonymousDiamondOperator extends JimpleTestSuiteBaseIT {
 
   public MethodSignature getMethodSignature() {
     return identifierFactory.getMethodSignature(

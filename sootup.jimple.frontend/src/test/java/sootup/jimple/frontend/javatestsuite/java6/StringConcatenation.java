@@ -12,7 +12,7 @@ import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 /**
  * @author Kaustubh Kelkar
  */
-public class StringConcatenationIT extends JimpleTestSuiteBaseIT {
+public class StringConcatenation extends JimpleTestSuiteBaseIT {
 
   public MethodSignature getMethodSignature() {
     return identifierFactory.getMethodSignature(

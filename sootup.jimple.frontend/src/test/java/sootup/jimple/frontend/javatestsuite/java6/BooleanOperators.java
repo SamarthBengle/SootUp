@@ -11,7 +11,7 @@ import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 /**
  * @author Kaustubh Kelkar
  */
-public class BooleanOperatorsIT extends JimpleTestSuiteBaseIT {
+public class BooleanOperators extends JimpleTestSuiteBaseIT {
 
   @Test
   public void testRelOpEq() {

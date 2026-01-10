@@ -11,7 +11,7 @@ import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 /**
  * @author Kaustubh Kelkar
  */
-public class IfElseStatementIT extends JimpleTestSuiteBaseIT {
+public class IfElseStatement extends JimpleTestSuiteBaseIT {
 
   @Test
   public void ifStatement() {

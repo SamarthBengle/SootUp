@@ -13,7 +13,7 @@ import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 /**
  * @author Kaustubh Kelkar
  */
-public class DeclareInnerClassIT extends JimpleTestSuiteBaseIT {
+public class DeclareInnerClass extends JimpleTestSuiteBaseIT {
 
   final JavaClassType innerClassType =
       identifierFactory.getClassType(

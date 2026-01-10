@@ -11,7 +11,7 @@ import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 /**
  * @author Kaustubh Kelkar
  */
-public class DeclareEnumWithConstructorIT extends JimpleTestSuiteBaseIT {
+public class DeclareEnumWithConstructor extends JimpleTestSuiteBaseIT {
 
   @Test
   public void test() {

@@ -11,7 +11,7 @@ import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 /**
  * @author Kaustubh Kelkar
  */
-public class Initialize3DimensionalArraysIT extends JimpleTestSuiteBaseIT {
+public class Initialize3DimensionalArrays extends JimpleTestSuiteBaseIT {
 
   @Test
   public void test() {

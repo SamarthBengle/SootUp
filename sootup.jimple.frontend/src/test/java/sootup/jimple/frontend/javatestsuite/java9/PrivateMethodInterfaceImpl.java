@@ -16,7 +16,7 @@ import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 /**
  * @author Kaustubh Kelkar
  */
-public class PrivateMethodInterfaceImplIT extends JimpleTestSuiteBaseIT {
+public class PrivateMethodInterfaceImpl extends JimpleTestSuiteBaseIT {
 
   public MethodSignature getMethodSignature() {
     return identifierFactory.getMethodSignature(

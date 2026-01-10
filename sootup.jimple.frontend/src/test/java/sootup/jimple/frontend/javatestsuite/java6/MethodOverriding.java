@@ -13,7 +13,7 @@ import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 /**
  * @author Kaustubh Kelkar
  */
-public class MethodOverridingIT extends JimpleTestSuiteBaseIT {
+public class MethodOverriding extends JimpleTestSuiteBaseIT {
 
   public MethodSignature getMethodSignature() {
 

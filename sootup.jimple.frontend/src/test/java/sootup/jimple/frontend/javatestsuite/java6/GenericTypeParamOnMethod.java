@@ -12,7 +12,7 @@ import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 /**
  * @author Kaustubh Kelkar
  */
-public class GenericTypeParamOnMethodIT extends JimpleTestSuiteBaseIT {
+public class GenericTypeParamOnMethod extends JimpleTestSuiteBaseIT {
   public MethodSignature getMethodSignature() {
     return identifierFactory.getMethodSignature(
         getDeclaredClassSignature(), "genericTypeParamOnMethod", "void", Collections.emptyList());

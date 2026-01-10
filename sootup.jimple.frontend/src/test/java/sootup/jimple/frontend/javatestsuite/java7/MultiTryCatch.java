@@ -13,7 +13,7 @@ import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 /**
  * @author Kaustubh Kelkar
  */
-public class MultiTryCatchIT extends JimpleTestSuiteBaseIT {
+public class MultiTryCatch extends JimpleTestSuiteBaseIT {
 
   @Test
   public void test() {

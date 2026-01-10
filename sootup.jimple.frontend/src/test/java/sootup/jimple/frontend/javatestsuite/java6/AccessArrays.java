@@ -11,7 +11,7 @@ import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 /**
  * @author Kaustubh Kelkar
  */
-public class AccessArraysIT extends JimpleTestSuiteBaseIT {
+public class AccessArrays extends JimpleTestSuiteBaseIT {
 
   @Test
   public void test() {

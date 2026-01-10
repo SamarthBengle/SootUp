@@ -13,7 +13,7 @@ import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 /**
  * @author Kaustubh Kelkar
  */
-public class TernaryOperatorIT extends JimpleTestSuiteBaseIT {
+public class TernaryOperator extends JimpleTestSuiteBaseIT {
   public MethodSignature getMethodSignature() {
     return identifierFactory.getMethodSignature(
         getDeclaredClassSignature(), "ternaryOperatorMethod", "boolean", Collections.emptyList());

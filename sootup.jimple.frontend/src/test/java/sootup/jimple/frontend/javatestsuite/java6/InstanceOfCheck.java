@@ -16,7 +16,7 @@ import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 /**
  * @author Kaustubh Kelkar
  */
-public class InstanceOfCheckIT extends JimpleTestSuiteBaseIT {
+public class InstanceOfCheck extends JimpleTestSuiteBaseIT {
   public MethodSignature getMethodSignature() {
     return identifierFactory.getMethodSignature(
         getDeclaredClassSignature(), "instanceOfCheckMethod", "void", Collections.emptyList());

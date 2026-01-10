@@ -10,7 +10,7 @@ import sootup.core.model.SootMethod;
 import sootup.core.signatures.MethodSignature;
 import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 
-public class DynamicInvokeIT extends JimpleTestSuiteBaseIT {
+public class DynamicInvoke extends JimpleTestSuiteBaseIT {
 
   public MethodSignature getMethodSignature() {
     return identifierFactory.getMethodSignature(

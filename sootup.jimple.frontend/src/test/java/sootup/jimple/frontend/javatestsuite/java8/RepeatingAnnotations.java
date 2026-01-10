@@ -17,7 +17,7 @@ import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 /**
  * @author Kaustubh Kelkar
  */
-public class RepeatingAnnotationsIT extends JimpleTestSuiteBaseIT {
+public class RepeatingAnnotations extends JimpleTestSuiteBaseIT {
 
   public MethodSignature getMethodSignature() {
     return identifierFactory.getMethodSignature(

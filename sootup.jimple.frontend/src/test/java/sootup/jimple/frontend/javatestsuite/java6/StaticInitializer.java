@@ -15,7 +15,7 @@ import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 /**
  * @author Kaustubh Kelkar
  */
-public class StaticInitializerIT extends JimpleTestSuiteBaseIT {
+public class StaticInitializer extends JimpleTestSuiteBaseIT {
   public MethodSignature getMethodSignature() {
     return identifierFactory.getMethodSignature(
         getDeclaredClassSignature(), "methodStaticInitializer", "void", Collections.emptyList());

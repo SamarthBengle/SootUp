@@ -11,7 +11,7 @@ import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 /**
  * @author Kaustubh Kelkar, Markus Schmidt
  */
-public class TryCatchFinallyIT extends JimpleTestSuiteBaseIT {
+public class TryCatchFinally extends JimpleTestSuiteBaseIT {
 
   @Test
   public void tryCatch() {

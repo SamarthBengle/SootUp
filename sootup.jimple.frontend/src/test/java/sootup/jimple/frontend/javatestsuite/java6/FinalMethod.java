@@ -14,7 +14,7 @@ import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 /**
  * @author Kaustubh Kelkar
  */
-public class FinalMethodIT extends JimpleTestSuiteBaseIT {
+public class FinalMethod extends JimpleTestSuiteBaseIT {
 
   @Test
   public void test() {

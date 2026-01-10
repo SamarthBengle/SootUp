@@ -10,7 +10,7 @@ import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 /**
  * @author Kaustubh Kelkar
  */
-public class AnnotationLibraryIT extends JimpleTestSuiteBaseIT {
+public class AnnotationLibrary extends JimpleTestSuiteBaseIT {
 
   @Disabled
   public void testAnnotation() {

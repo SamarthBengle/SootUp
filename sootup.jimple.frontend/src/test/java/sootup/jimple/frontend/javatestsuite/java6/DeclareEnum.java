@@ -9,7 +9,7 @@ import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 /**
  * @author Kaustubh Kelkar
  */
-public class DeclareEnumIT extends JimpleTestSuiteBaseIT {
+public class DeclareEnum extends JimpleTestSuiteBaseIT {
 
   @Test
   public void test() {

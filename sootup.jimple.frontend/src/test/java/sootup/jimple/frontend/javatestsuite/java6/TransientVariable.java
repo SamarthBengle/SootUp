@@ -17,7 +17,7 @@ import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 /**
  * @author Kaustubh Kelkar
  */
-public class TransientVariableIT extends JimpleTestSuiteBaseIT {
+public class TransientVariable extends JimpleTestSuiteBaseIT {
   public MethodSignature getMethodSignature() {
     return identifierFactory.getMethodSignature(
         getDeclaredClassSignature(), "transientVariable", "void", Collections.emptyList());

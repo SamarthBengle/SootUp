@@ -11,7 +11,7 @@ import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 /**
  * @author Kaustubh Kelkar
  */
-public class MethodReturningVarIT extends JimpleTestSuiteBaseIT {
+public class MethodReturningVar extends JimpleTestSuiteBaseIT {
 
   @Test
   public void test() {

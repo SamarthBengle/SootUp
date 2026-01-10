@@ -18,7 +18,7 @@ import sootup.java.core.JavaSootClass;
 import sootup.java.core.views.JavaEagerView;
 import sootup.java.core.views.JavaView;
 
-public class JimpleAnalysisInputLocationTest {
+public class JimpleAnalysisInputLocationIT {
 
   @Test
   public void testClassResolving() {

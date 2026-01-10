@@ -16,7 +16,7 @@ import sootup.jimple.frontend.javatestsuite.JimpleTestSuiteBaseIT;
 /**
  * @author Kaustubh Kelkar
  */
-public class MultiInterfaceImplClassIT extends JimpleTestSuiteBaseIT {
+public class MultiInterfaceImplClass extends JimpleTestSuiteBaseIT {
   public MethodSignature getMethodSignature() {
     return identifierFactory.getMethodSignature(
         getDeclaredClassSignature(), "interfaceMethod", "void", Collections.emptyList());
