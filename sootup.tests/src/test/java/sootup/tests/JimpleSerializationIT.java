@@ -10,7 +10,7 @@ import sootup.java.bytecode.frontend.inputlocation.JavaClassPathAnalysisInputLoc
 import sootup.java.core.JavaSootMethod;
 import sootup.java.core.views.JavaView;
 
-public class JimpleSerializationTest {
+public class JimpleSerializationIT {
 
   @Test
   public void testTrapSerialization() {

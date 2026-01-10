@@ -15,7 +15,7 @@ import sootup.tests.typehierarchy.JavaTypeHierarchyTestBase;
 /**
  * @author Jonas Klauke *
  */
-public class IncompleteSuperclassTest extends JavaTypeHierarchyTestBase {
+public class IncompleteSuperclassIT extends JavaTypeHierarchyTestBase {
   @Test
   public void method() {
     ViewTypeHierarchy typeHierarchy = (ViewTypeHierarchy) this.getView().getTypeHierarchy();

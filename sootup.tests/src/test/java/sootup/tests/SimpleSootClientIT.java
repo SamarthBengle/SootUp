@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 /**
  * @author Linghui Luo
  */
-public class SimpleSootClientTest {
+public class SimpleSootClientIT {
 
   @Test
   public void test1() {

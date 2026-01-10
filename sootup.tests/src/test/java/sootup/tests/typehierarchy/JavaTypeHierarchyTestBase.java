@@ -9,7 +9,7 @@ import sootup.java.core.views.JavaView;
 /**
  * @author: Hasitha Rajapakse *
  */
-public abstract class JavaTypeHierarchyTestBaseIT {
+public abstract class JavaTypeHierarchyTestBase {
   // Test Resource Folder Path
   static final String baseDir = "src/test/resources/javatypehierarchy/";
 

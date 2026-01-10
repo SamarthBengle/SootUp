@@ -42,7 +42,7 @@ import sootup.java.core.language.JavaJimple;
 import sootup.java.core.types.JavaClassType;
 import sootup.java.core.views.JavaView;
 
-public class MutatingSootClassTest {
+public class MutatingSootClassIT {
 
   @Test
   public void test() {

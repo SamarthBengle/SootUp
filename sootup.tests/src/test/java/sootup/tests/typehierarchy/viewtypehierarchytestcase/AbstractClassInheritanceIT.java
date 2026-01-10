@@ -14,7 +14,7 @@ import sootup.tests.typehierarchy.JavaTypeHierarchyTestBase;
 /**
  * @author Hasitha Rajapakse *
  */
-public class AbstractClassInheritanceTest extends JavaTypeHierarchyTestBase {
+public class AbstractClassInheritanceIT extends JavaTypeHierarchyTestBase {
   @Test
   public void method() {
     SootClass sootClass =

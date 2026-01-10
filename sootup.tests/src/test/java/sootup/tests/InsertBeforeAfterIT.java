@@ -24,7 +24,7 @@ import sootup.java.core.language.JavaJimple;
 import sootup.java.core.types.JavaClassType;
 import sootup.java.core.views.JavaView;
 
-public class InsertBeforeAfterTest {
+public class InsertBeforeAfterIT {
 
   String location =
       Paths.get(System.getProperty("user.dir")).getParent()

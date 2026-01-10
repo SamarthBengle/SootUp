@@ -33,7 +33,7 @@ import sootup.java.core.views.JavaView;
 /**
  * @author Kaustubh Kelkar updated on 09.07.2020
  */
-public class WitherTest {
+public class WitherIT {
 
   private JavaView loader;
   private JavaIdentifierFactory identifierFactory;

@@ -20,7 +20,7 @@ import sootup.java.core.JavaSootClass;
 import sootup.java.core.views.JavaView;
 import sootup.jimple.frontend.JimpleAnalysisInputLocation;
 
-public class FieldRefValidatorTest {
+public class FieldRefValidatorIT {
 
   FieldRefValidator fieldRefValidator;
   JavaView jimpleView;

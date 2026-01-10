@@ -27,7 +27,7 @@ import sootup.java.core.views.MutableJavaView;
  * Comprises test that test the addition and removal of classes and methods to the mutable view. It
  * uses the MiniApp.jar for testing.
  */
-public class MutableSootClientTest {
+public class MutableSootClientIT {
   static Path pathToJar = Paths.get("../shared-test-resources/java-miniapps/MiniApp.jar");
   static AnalysisInputLocation location;
   MutableJavaView mv;

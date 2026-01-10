@@ -14,7 +14,7 @@ import sootup.tests.typehierarchy.JavaTypeHierarchyTestBase;
 /**
  * @author: Hasitha Rajapakse *
  */
-public class InheritanceTransitivityTest extends JavaTypeHierarchyTestBase {
+public class InheritanceTransitivityIT extends JavaTypeHierarchyTestBase {
 
   @Test
   public void method() {

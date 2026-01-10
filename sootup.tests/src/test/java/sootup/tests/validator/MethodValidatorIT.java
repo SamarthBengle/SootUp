@@ -17,7 +17,7 @@ import sootup.java.core.JavaSootMethod;
 import sootup.java.core.views.JavaView;
 import sootup.jimple.frontend.JimpleAnalysisInputLocation;
 
-public class MethodValidatorTest {
+public class MethodValidatorIT {
   MethodValidator methodValidator = new MethodValidator();
   static JavaView jimpleView;
 

@@ -14,7 +14,7 @@ import sootup.tests.typehierarchy.JavaTypeHierarchyTestBase;
 /**
  * @author: Hasitha Rajapakse *
  */
-public class InterfaceImplementationTest extends JavaTypeHierarchyTestBase {
+public class InterfaceImplementationIT extends JavaTypeHierarchyTestBase {
   @Test
   public void method() {
     JavaClassType interfaceA = getClassType("InterfaceA");

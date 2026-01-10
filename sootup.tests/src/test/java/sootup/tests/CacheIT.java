@@ -20,7 +20,7 @@ import sootup.java.core.views.JavaView;
  * Comprises tests that test the behavior of different types of caches. It uses the MiniApp.jar for
  * testing.
  */
-public class CacheTest {
+public class CacheIT {
   static Path pathToJar = Paths.get("../shared-test-resources/java-miniapps/MiniApp.jar");
   static List<AnalysisInputLocation> inputLocations;
 

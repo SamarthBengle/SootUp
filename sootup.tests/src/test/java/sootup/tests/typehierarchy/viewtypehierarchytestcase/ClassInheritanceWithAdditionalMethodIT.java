@@ -14,7 +14,7 @@ import sootup.tests.typehierarchy.JavaTypeHierarchyTestBase;
 /**
  * @author Zun Wang
  */
-public class ClassInheritanceWithAdditionalMethodTest extends JavaTypeHierarchyTestBase {
+public class ClassInheritanceWithAdditionalMethodIT extends JavaTypeHierarchyTestBase {
 
   /**
    * Test: {@link java.lang.Object} is superclass of "SuperClass" and

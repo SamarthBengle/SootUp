@@ -25,7 +25,7 @@ import sootup.java.core.JavaIdentifierFactory;
 import sootup.java.core.types.JavaClassType;
 import sootup.java.core.views.JavaView;
 
-public class CallGraphTest {
+public class CallGraphIT {
 
   protected JavaIdentifierFactory identifierFactory;
   protected JavaClassType mainClassSignature;

@@ -19,7 +19,7 @@ import sootup.java.core.JavaSootClass;
 import sootup.java.core.views.JavaView;
 import sootup.jimple.frontend.JimpleAnalysisInputLocation;
 
-public class LocalsValidatorTest {
+public class LocalsValidatorIT {
   LocalsValidator localsValidator;
   JavaView jimpleView;
   Collection<SootClass> classes;

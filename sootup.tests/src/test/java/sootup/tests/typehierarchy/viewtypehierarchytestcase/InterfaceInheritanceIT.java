@@ -13,7 +13,7 @@ import sootup.tests.typehierarchy.JavaTypeHierarchyTestBase;
 /**
  * @author: Hasitha Rajapakse *
  */
-public class InterfaceInheritanceTest extends JavaTypeHierarchyTestBase {
+public class InterfaceInheritanceIT extends JavaTypeHierarchyTestBase {
   @Test
   public void method() {
     ViewTypeHierarchy typeHierarchy = (ViewTypeHierarchy) this.getView().getTypeHierarchy();

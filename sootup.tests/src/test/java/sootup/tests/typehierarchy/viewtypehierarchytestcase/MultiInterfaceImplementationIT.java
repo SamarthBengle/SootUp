@@ -13,7 +13,7 @@ import sootup.tests.typehierarchy.JavaTypeHierarchyTestBase;
 /**
  * @author: Hasitha Rajapakse *
  */
-public class MultiInterfaceImplementationTest extends JavaTypeHierarchyTestBase {
+public class MultiInterfaceImplementationIT extends JavaTypeHierarchyTestBase {
   @Test
   public void method() {
     ViewTypeHierarchy typeHierarchy = (ViewTypeHierarchy) this.getView().getTypeHierarchy();

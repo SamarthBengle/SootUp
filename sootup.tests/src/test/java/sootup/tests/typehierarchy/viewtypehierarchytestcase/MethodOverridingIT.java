@@ -15,7 +15,7 @@ import sootup.tests.typehierarchy.JavaTypeHierarchyTestBase;
 /**
  * @author: Hasitha Rajapakse *
  */
-public class MethodOverridingTest extends JavaTypeHierarchyTestBase {
+public class MethodOverridingIT extends JavaTypeHierarchyTestBase {
   @Test
   public void method() {
     JavaClassType superClass1 = getClassType("SuperClass");

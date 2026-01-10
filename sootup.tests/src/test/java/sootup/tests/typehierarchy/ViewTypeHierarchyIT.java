@@ -31,7 +31,7 @@ import sootup.java.core.views.JavaView;
 /**
  * @author Kaustubh Kelkar update on 22.04.2020
  */
-public class ViewTypeHierarchyTest {
+public class ViewTypeHierarchyIT {
 
   private JavaView view;
   private ViewTypeHierarchy typeHierarchy;

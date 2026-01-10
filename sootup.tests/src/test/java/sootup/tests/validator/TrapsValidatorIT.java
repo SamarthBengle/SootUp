@@ -18,7 +18,7 @@ import sootup.java.core.JavaSootClass;
 import sootup.java.core.views.JavaView;
 import sootup.jimple.frontend.JimpleAnalysisInputLocation;
 
-public class TrapsValidatorTest {
+public class TrapsValidatorIT {
   TrapsValidator trapsValidator;
   JavaView jimpleView;
 

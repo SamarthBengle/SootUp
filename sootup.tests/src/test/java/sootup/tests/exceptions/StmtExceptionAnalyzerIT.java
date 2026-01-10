@@ -31,7 +31,7 @@ import sootup.java.core.exceptions.ExceptionInferResult;
 import sootup.java.core.exceptions.StmtExceptionAnalyzer;
 import sootup.java.core.views.JavaView;
 
-public class StmtExceptionAnalyzerTest {
+public class StmtExceptionAnalyzerIT {
 
   JavaIdentifierFactory factory = JavaIdentifierFactory.getInstance();
   ClassType clazzType = factory.getClassType("StmtExceptions");

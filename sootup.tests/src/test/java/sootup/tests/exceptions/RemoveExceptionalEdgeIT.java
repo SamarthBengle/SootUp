@@ -17,7 +17,7 @@ import sootup.java.bytecode.frontend.inputlocation.JavaClassPathAnalysisInputLoc
 import sootup.java.core.views.JavaEagerView;
 import sootup.java.core.views.JavaView;
 
-public class RemoveExceptionalEdgeTest {
+public class RemoveExceptionalEdgeIT {
 
   static class ExceptionalEdgeInterceptor implements BodyInterceptor {
 

@@ -25,7 +25,7 @@ import sootup.java.bytecode.frontend.inputlocation.PathBasedAnalysisInputLocatio
 import sootup.java.core.JavaIdentifierFactory;
 import sootup.java.core.views.JavaView;
 
-public class NestedTryCatchFlowTest {
+public class NestedTryCatchFlowIT {
 
   String location =
       Paths.get(System.getProperty("user.dir")).getParent()
