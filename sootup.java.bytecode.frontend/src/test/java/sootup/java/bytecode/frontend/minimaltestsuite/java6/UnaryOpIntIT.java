@@ -13,7 +13,7 @@ import sootup.java.bytecode.frontend.minimaltestsuite.MinimalBytecodeTestSuiteBa
 /**
  * @author Kaustubh Kelkar
  */
-public class UnaryOpInt extends MinimalBytecodeTestSuiteBase {
+public class UnaryOpIntIT extends MinimalBytecodeTestSuiteBase {
 
   public MethodSignature getMethodSignature() {
     return identifierFactory.getMethodSignature(

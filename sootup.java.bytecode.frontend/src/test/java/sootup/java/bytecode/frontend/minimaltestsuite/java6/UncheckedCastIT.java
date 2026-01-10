@@ -13,7 +13,7 @@ import sootup.java.bytecode.frontend.minimaltestsuite.MinimalBytecodeTestSuiteBa
 /**
  * @author Kaustubh Kelkar
  */
-public class UncheckedCast extends MinimalBytecodeTestSuiteBase {
+public class UncheckedCastIT extends MinimalBytecodeTestSuiteBase {
 
   public MethodSignature getMethodSignature() {
     return identifierFactory.getMethodSignature(

@@ -17,7 +17,7 @@ import sootup.java.bytecode.frontend.minimaltestsuite.MinimalBytecodeTestSuiteBa
 /**
  * @author Kaustubh Kelkar
  */
-public class TransientVariable extends MinimalBytecodeTestSuiteBase {
+public class TransientVariableIT extends MinimalBytecodeTestSuiteBase {
   public MethodSignature getMethodSignature() {
     return identifierFactory.getMethodSignature(
         getDeclaredClassSignature(), "transientVariable", "void", Collections.emptyList());

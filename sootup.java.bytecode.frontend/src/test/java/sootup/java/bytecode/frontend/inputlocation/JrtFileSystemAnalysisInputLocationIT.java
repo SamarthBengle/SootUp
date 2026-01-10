@@ -17,11 +17,11 @@ import sootup.java.core.views.JavaModuleView;
 /**
  * @author Andreas Dann, Markus Schmidt
  */
-public class JrtFileSystemAnalysisInputLocation {
+public class JrtFileSystemAnalysisInputLocationIT {
 
   @Test
   public void getClassSource() {
-    JrtFileSystemAnalysisInputLocation inputLocation = new JrtFileSystemAnalysisInputLocation();
+    JrtFileSystemAnalysisInputLocationIT inputLocation = new JrtFileSystemAnalysisInputLocationIT();
 
     JavaModuleView view =
         new JavaModuleView(Collections.emptyList(), Collections.singletonList(inputLocation));
@@ -37,7 +37,7 @@ public class JrtFileSystemAnalysisInputLocation {
   @Test
   public void getClassSources() {
     // hint: quite expensive as it loads **all** Runtime modules!
-    JrtFileSystemAnalysisInputLocation inputLocation = new JrtFileSystemAnalysisInputLocation();
+    JrtFileSystemAnalysisInputLocationIT inputLocation = new JrtFileSystemAnalysisInputLocationIT();
     JavaModuleView view =
         new JavaModuleView(Collections.emptyList(), Collections.singletonList(inputLocation));
 
@@ -62,7 +62,7 @@ public class JrtFileSystemAnalysisInputLocation {
 
   @Test
   public void discoverModules() {
-    JrtFileSystemAnalysisInputLocation inputLocation = new JrtFileSystemAnalysisInputLocation();
+    JrtFileSystemAnalysisInputLocationIT inputLocation = new JrtFileSystemAnalysisInputLocationIT();
     Collection<ModuleSignature> modules = inputLocation.discoverModules();
     assertTrue(modules.size() > 65);
     System.out.println(modules);

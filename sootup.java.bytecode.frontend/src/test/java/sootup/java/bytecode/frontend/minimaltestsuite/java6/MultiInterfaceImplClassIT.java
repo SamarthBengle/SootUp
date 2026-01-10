@@ -16,7 +16,7 @@ import sootup.java.bytecode.frontend.minimaltestsuite.MinimalBytecodeTestSuiteBa
 /**
  * @author Kaustubh Kelkar
  */
-public class MultiInterfaceImplClass extends MinimalBytecodeTestSuiteBase {
+public class MultiInterfaceImplClassIT extends MinimalBytecodeTestSuiteBase {
   public MethodSignature getMethodSignature() {
     return identifierFactory.getMethodSignature(
         getDeclaredClassSignature(), "interfaceMethod", "void", Collections.emptyList());

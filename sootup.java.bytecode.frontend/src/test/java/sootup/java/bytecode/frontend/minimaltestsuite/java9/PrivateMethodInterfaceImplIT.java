@@ -16,7 +16,7 @@ import sootup.java.bytecode.frontend.minimaltestsuite.MinimalBytecodeTestSuiteBa
 /**
  * @author Kaustubh Kelkar
  */
-public class PrivateMethodInterfaceImpl extends MinimalBytecodeTestSuiteBase {
+public class PrivateMethodInterfaceImplIT extends MinimalBytecodeTestSuiteBase {
 
   @Override
   public MethodSignature getMethodSignature() {

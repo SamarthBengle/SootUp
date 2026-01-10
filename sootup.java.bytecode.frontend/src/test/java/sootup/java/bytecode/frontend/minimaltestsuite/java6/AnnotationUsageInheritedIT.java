@@ -18,7 +18,7 @@ import sootup.java.core.JavaSootClass;
 import sootup.java.core.language.JavaJimple;
 import sootup.java.core.types.JavaClassType;
 
-public class AnnotationUsageInherited extends MinimalBytecodeTestSuiteBase {
+public class AnnotationUsageInheritedIT extends MinimalBytecodeTestSuiteBase {
 
   private <T> Stream<T> toStream(Iterable<T> iterable) {
     return StreamSupport.stream(iterable.spliterator(), false);

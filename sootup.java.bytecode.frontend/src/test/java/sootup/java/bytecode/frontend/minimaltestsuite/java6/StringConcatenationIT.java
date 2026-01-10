@@ -12,7 +12,7 @@ import sootup.java.bytecode.frontend.minimaltestsuite.MinimalBytecodeTestSuiteBa
 /**
  * @author Kaustubh Kelkar
  */
-public class StringConcatenation extends MinimalBytecodeTestSuiteBase {
+public class StringConcatenationIT extends MinimalBytecodeTestSuiteBase {
 
   @Override
   public MethodSignature getMethodSignature() {

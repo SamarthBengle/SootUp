@@ -13,7 +13,7 @@ import sootup.java.bytecode.frontend.minimaltestsuite.MinimalBytecodeTestSuiteBa
 /**
  * @author Kaustubh Kelkar, Markus Schmidt
  */
-public class TryCatchFinally extends MinimalBytecodeTestSuiteBase {
+public class TryCatchFinallyIT extends MinimalBytecodeTestSuiteBase {
 
   @Test
   public void tryCatch() {

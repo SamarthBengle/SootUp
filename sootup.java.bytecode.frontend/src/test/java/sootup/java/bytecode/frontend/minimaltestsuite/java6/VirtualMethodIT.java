@@ -13,7 +13,7 @@ import sootup.java.bytecode.frontend.minimaltestsuite.MinimalBytecodeTestSuiteBa
 /**
  * @author Kaustubh Kelkar
  */
-public class VirtualMethod extends MinimalBytecodeTestSuiteBase {
+public class VirtualMethodIT extends MinimalBytecodeTestSuiteBase {
 
   // @Override
   public MethodSignature getMethodSignature() {

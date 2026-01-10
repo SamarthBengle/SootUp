@@ -12,7 +12,7 @@ import sootup.java.bytecode.frontend.minimaltestsuite.MinimalBytecodeTestSuiteBa
 /**
  * @author Markus Schmidt
  */
-public class InfiniteLoop extends MinimalBytecodeTestSuiteBase {
+public class InfiniteLoopIT extends MinimalBytecodeTestSuiteBase {
   @Override
   public MethodSignature getMethodSignature() {
     return identifierFactory.getMethodSignature(

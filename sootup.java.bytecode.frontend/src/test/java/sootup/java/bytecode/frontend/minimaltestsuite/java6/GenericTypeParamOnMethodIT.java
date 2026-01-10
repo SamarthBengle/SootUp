@@ -12,7 +12,7 @@ import sootup.java.bytecode.frontend.minimaltestsuite.MinimalBytecodeTestSuiteBa
 /**
  * @author Kaustubh Kelkar
  */
-public class GenericTypeParamOnMethod extends MinimalBytecodeTestSuiteBase {
+public class GenericTypeParamOnMethodIT extends MinimalBytecodeTestSuiteBase {
   @Override
   public MethodSignature getMethodSignature() {
     return identifierFactory.getMethodSignature(

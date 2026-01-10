@@ -32,7 +32,7 @@ import sootup.java.core.language.JavaJimple;
 import sootup.java.core.types.JavaClassType;
 import sootup.java.core.views.JavaView;
 
-public class DeadAssignmentEliminatorTest {
+public class DeadAssignmentEliminatorIT {
 
   Path classFilePath =
       Paths.get("../shared-test-resources/bugfixes/DeadAssignmentEliminatorTest.class");

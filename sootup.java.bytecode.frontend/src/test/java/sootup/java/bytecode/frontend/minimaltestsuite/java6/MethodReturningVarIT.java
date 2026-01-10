@@ -12,7 +12,7 @@ import sootup.java.bytecode.frontend.minimaltestsuite.MinimalBytecodeTestSuiteBa
 /**
  * @author Kaustubh Kelkar
  */
-public class MethodReturningVar extends MinimalBytecodeTestSuiteBase {
+public class MethodReturningVarIT extends MinimalBytecodeTestSuiteBase {
 
   @Test
   public void test() {

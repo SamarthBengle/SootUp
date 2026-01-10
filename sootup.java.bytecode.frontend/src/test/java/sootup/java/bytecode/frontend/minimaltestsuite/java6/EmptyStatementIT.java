@@ -12,7 +12,7 @@ import sootup.java.bytecode.frontend.minimaltestsuite.MinimalBytecodeTestSuiteBa
 /**
  * @author Kaustubh Kelkar
  */
-public class EmptyStatement extends MinimalBytecodeTestSuiteBase {
+public class EmptyStatementIT extends MinimalBytecodeTestSuiteBase {
 
   @Override
   public MethodSignature getMethodSignature() {

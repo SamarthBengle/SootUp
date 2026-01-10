@@ -9,7 +9,7 @@ import sootup.java.bytecode.frontend.minimaltestsuite.MinimalBytecodeTestSuiteBa
 import sootup.java.core.AnnotationUsage;
 import sootup.java.core.JavaSootClass;
 
-public class PackageAnnotation extends MinimalBytecodeTestSuiteBase {
+public class PackageAnnotationIT extends MinimalBytecodeTestSuiteBase {
 
   @Test
   public void testPackageAnnotation() {

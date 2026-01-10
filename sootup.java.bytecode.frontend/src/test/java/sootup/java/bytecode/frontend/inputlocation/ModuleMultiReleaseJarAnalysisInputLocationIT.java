@@ -40,7 +40,7 @@ import sootup.java.core.types.ModuleJavaClassType;
 import sootup.java.core.views.JavaModuleView;
 import sootup.java.core.views.JavaView;
 
-public class ModuleMultiReleaseJarAnalysisInputLocation extends AnalysisInputLocation {
+public class ModuleMultiReleaseJarAnalysisInputLocationIT extends AnalysisInputLocation {
   final Path mmrj = Paths.get("../shared-test-resources/multi-release-jar-modular/mrjar.jar");
 
   @Test
@@ -53,7 +53,7 @@ public class ModuleMultiReleaseJarAnalysisInputLocation extends AnalysisInputLoc
     // - [ ] module-info.class in root; no module-info.class in version
     // - [ ] no module-info.class in root; no module-info.class in version -> non modular
 
-    assertTrue(MultiReleaseJarAnalysisInputLocation.isMultiReleaseJar(mmrj));
+    assertTrue(MultiReleaseJarAnalysisInputLocationIT.isMultiReleaseJar(mmrj));
 
     final ClassType utilityNoModule =
         getIdentifierFactory().getClassType("de.upb.swt.multirelease.Utility");
@@ -66,19 +66,19 @@ public class ModuleMultiReleaseJarAnalysisInputLocation extends AnalysisInputLoc
         getIdentifierFactory().getClassType("de.upb.swt.multirelease.Main");
 
     ModuleInfoAnalysisInputLocation moduleMultiReleaseJarAnalysisInputLocation8 =
-        new ModuleMultiReleaseJarAnalysisInputLocation(mmrj, SourceType.Application, 8);
+        new ModuleMultiReleaseJarAnalysisInputLocationIT(mmrj, SourceType.Application, 8);
 
     final JavaView view_8 =
         new JavaModuleView(
             Collections.emptyList(),
             Collections.singletonList(moduleMultiReleaseJarAnalysisInputLocation8));
 
-    ModuleMultiReleaseJarAnalysisInputLocation moduleMultiReleaseJarAnalysisInputLocation9 =
-        new ModuleMultiReleaseJarAnalysisInputLocation(mmrj, SourceType.Application, 9);
+    ModuleMultiReleaseJarAnalysisInputLocationIT moduleMultiReleaseJarAnalysisInputLocationIT9 =
+        new ModuleMultiReleaseJarAnalysisInputLocationIT(mmrj, SourceType.Application, 9);
     final JavaModuleView view_9 =
         new JavaModuleView(
             Collections.emptyList(),
-            Collections.singletonList(moduleMultiReleaseJarAnalysisInputLocation9));
+            Collections.singletonList(moduleMultiReleaseJarAnalysisInputLocationIT9));
     ModuleSignature moduleSignature =
         JavaModuleIdentifierFactory.getModuleSignature("de.upb.swt.multirelease");
 

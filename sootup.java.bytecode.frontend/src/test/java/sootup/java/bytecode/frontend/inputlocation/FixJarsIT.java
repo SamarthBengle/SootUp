@@ -10,7 +10,7 @@ import sootup.interceptors.NopEliminator;
 import sootup.java.core.views.JavaView;
 import sootup.jimple.frontend.JimpleAnalysisInputLocation;
 
-public class FixJars extends BaseFixJarsIT {
+public class FixJarsIT extends BaseFixJars {
 
   @Test
   /* Isolated testcase from:

@@ -9,7 +9,6 @@ import java.util.List;
 import java.util.Optional;
 import sootup.core.IdentifierFactory;
 import sootup.core.frontend.SootClassSource;
-import sootup.core.inputlocation.AnalysisInputLocation;
 import sootup.core.types.ClassType;
 import sootup.java.core.JavaIdentifierFactory;
 import sootup.java.core.views.JavaView;
@@ -40,7 +39,7 @@ import sootup.java.core.views.JavaView;
  * @author Manuel Benz created on 07.06.18
  * @author Kaustubh Kelkar updated on 16.04.2020
  */
-public abstract class AnalysisInputLocationIT {
+public abstract class AnalysisInputLocation {
 
   final Path war = Paths.get("../shared-test-resources/java-warApp/dummyWarApp.war");
   final Path jar = Paths.get("../shared-test-resources/java-miniapps/MiniApp.jar");
@@ -51,7 +50,7 @@ public abstract class AnalysisInputLocationIT {
   }
 
   protected void testClassReceival(
-      AnalysisInputLocation ns, List<ClassType> sigs, int classesFound) {
+          sootup.core.inputlocation.AnalysisInputLocation ns, List<ClassType> sigs, int classesFound) {
 
     final JavaView view = new JavaView(ns);
 

@@ -9,7 +9,7 @@ import sootup.java.bytecode.frontend.minimaltestsuite.MinimalBytecodeTestSuiteBa
 /**
  * @author Bastian Haverkamp
  */
-public class CossiInput extends MinimalBytecodeTestSuiteBase {
+public class CossiInputIT extends MinimalBytecodeTestSuiteBase {
 
   @Test
   public void test() {

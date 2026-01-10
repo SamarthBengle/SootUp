@@ -17,7 +17,7 @@ import sootup.java.bytecode.frontend.minimaltestsuite.MinimalBytecodeTestSuiteBa
 /**
  * @author Kaustubh Kelkar
  */
-public class RepeatingAnnotations extends MinimalBytecodeTestSuiteBase {
+public class RepeatingAnnotationsIT extends MinimalBytecodeTestSuiteBase {
 
   @Override
   public MethodSignature getMethodSignature() {

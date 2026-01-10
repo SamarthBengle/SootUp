@@ -15,7 +15,7 @@ import sootup.java.bytecode.frontend.minimaltestsuite.MinimalBytecodeTestSuiteBa
 /**
  * @author Kaustubh Kelkar
  */
-public class StaticInitializer extends MinimalBytecodeTestSuiteBase {
+public class StaticInitializerIT extends MinimalBytecodeTestSuiteBase {
   public MethodSignature getMethodSignature() {
     return identifierFactory.getMethodSignature(
         getDeclaredClassSignature(), "methodStaticInitializer", "void", Collections.emptyList());

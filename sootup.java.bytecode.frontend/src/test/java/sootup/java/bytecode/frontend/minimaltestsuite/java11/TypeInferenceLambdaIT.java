@@ -13,7 +13,7 @@ import sootup.java.bytecode.frontend.minimaltestsuite.MinimalBytecodeTestSuiteBa
 /**
  * @author Bastian Haverkamp
  */
-public class TypeInferenceLambda extends MinimalBytecodeTestSuiteBase {
+public class TypeInferenceLambdaIT extends MinimalBytecodeTestSuiteBase {
 
   @Override
   public MethodSignature getMethodSignature() {

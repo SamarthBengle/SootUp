@@ -22,7 +22,7 @@ import sootup.core.types.VoidType;
 import sootup.core.util.ImmutableUtils;
 import sootup.interceptors.StaticSingleAssignmentFormer;
 import sootup.java.bytecode.frontend.inputlocation.ClassFileBasedAnalysisInputLocation;
-import sootup.java.bytecode.frontend.inputlocation.PathBasedAnalysisInputLocation;
+import sootup.java.bytecode.frontend.inputlocation.PathBasedAnalysisInputLocationIT;
 import sootup.java.core.JavaIdentifierFactory;
 import sootup.java.core.language.JavaJimple;
 import sootup.java.core.types.JavaClassType;
@@ -31,7 +31,7 @@ import sootup.java.core.views.JavaView;
 /**
  * @author Zun Wang
  */
-public class StaticSingleAssignmentFormerTest {
+public class StaticSingleAssignmentFormerIT {
 
   // Preparation
   JavaIdentifierFactory factory = JavaIdentifierFactory.getInstance();
@@ -143,7 +143,7 @@ public class StaticSingleAssignmentFormerTest {
         factory.getMethodSignature(
             clazzType, "main", "void", Collections.singletonList("java.lang.String[]"));
     final Path path = Paths.get(location + "TrapSSA.class");
-    PathBasedAnalysisInputLocation inputLocationWithSSA =
+    PathBasedAnalysisInputLocationIT inputLocationWithSSA =
         new ClassFileBasedAnalysisInputLocation(
             path,
             "",
@@ -250,7 +250,7 @@ public class StaticSingleAssignmentFormerTest {
         factory.getMethodSignature(
             clazzType, "main", "void", Collections.singletonList("java.lang.String[]"));
     final Path path = Paths.get(location + "ForLoopSSA.class");
-    PathBasedAnalysisInputLocation inputLocationWithSSA =
+    PathBasedAnalysisInputLocationIT inputLocationWithSSA =
         new ClassFileBasedAnalysisInputLocation(
             path,
             "",

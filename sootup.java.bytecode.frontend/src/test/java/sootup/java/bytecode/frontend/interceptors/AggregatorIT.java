@@ -30,7 +30,7 @@ import sootup.java.core.language.JavaJimple;
 import sootup.java.core.types.JavaClassType;
 import sootup.java.core.views.JavaView;
 
-public class AggregatorTest {
+public class AggregatorIT {
 
   /**
    * Tests the correct aggregation. Transforms from

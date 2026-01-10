@@ -13,7 +13,7 @@ import sootup.java.bytecode.frontend.minimaltestsuite.MinimalBytecodeTestSuiteBa
 /**
  * @author Kaustubh Kelkar, Bastian Haverkamp
  */
-public class MethodAcceptingLamExpr extends MinimalBytecodeTestSuiteBase {
+public class MethodAcceptingLamExprIT extends MinimalBytecodeTestSuiteBase {
 
   @Override
   public MethodSignature getMethodSignature() {

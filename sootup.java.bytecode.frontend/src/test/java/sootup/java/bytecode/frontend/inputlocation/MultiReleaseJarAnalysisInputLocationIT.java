@@ -42,7 +42,7 @@ import sootup.java.core.JavaSootClass;
 import sootup.java.core.JavaSootMethod;
 import sootup.java.core.views.JavaView;
 
-public class MultiReleaseJarAnalysisInputLocation extends AnalysisInputLocation {
+public class MultiReleaseJarAnalysisInputLocationIT extends AnalysisInputLocation {
 
   final Path mrj = Paths.get("../shared-test-resources/multi-release-jar/mrjar.jar");
   JavaView view_min;
@@ -57,20 +57,20 @@ public class MultiReleaseJarAnalysisInputLocation extends AnalysisInputLocation 
   public void multiReleaseJar() {
 
     view_min =
-        new JavaView(new MultiReleaseJarAnalysisInputLocation(mrj, SourceType.Application, 1));
-    view_8 = new JavaView(new MultiReleaseJarAnalysisInputLocation(mrj, SourceType.Application, 8));
-    view_9 = new JavaView(new MultiReleaseJarAnalysisInputLocation(mrj, SourceType.Application, 9));
+        new JavaView(new MultiReleaseJarAnalysisInputLocationIT(mrj, SourceType.Application, 1));
+    view_8 = new JavaView(new MultiReleaseJarAnalysisInputLocationIT(mrj, SourceType.Application, 8));
+    view_9 = new JavaView(new MultiReleaseJarAnalysisInputLocationIT(mrj, SourceType.Application, 9));
     view_10 =
-        new JavaView(new MultiReleaseJarAnalysisInputLocation(mrj, SourceType.Application, 10));
+        new JavaView(new MultiReleaseJarAnalysisInputLocationIT(mrj, SourceType.Application, 10));
     view_max =
         new JavaView(
-            new MultiReleaseJarAnalysisInputLocation(
+            new MultiReleaseJarAnalysisInputLocationIT(
                 mrj, SourceType.Application, Integer.MAX_VALUE));
 
     classType = getIdentifierFactory().getClassType("de.upb.sse.multirelease.Utility");
     classType2 = getIdentifierFactory().getClassType("de.upb.sse.multirelease.Main");
 
-    Assertions.assertTrue(MultiReleaseJarAnalysisInputLocation.isMultiReleaseJar(mrj));
+    Assertions.assertTrue(MultiReleaseJarAnalysisInputLocationIT.isMultiReleaseJar(mrj));
 
     // for java 8
     JavaSootClass jm8c1 = view_8.getClass(classType).orElse(null);
@@ -165,7 +165,7 @@ public class MultiReleaseJarAnalysisInputLocation extends AnalysisInputLocation 
 
   @Test
   public void testVersions() {
-    List<Integer> languageVersions = MultiReleaseJarAnalysisInputLocation.getLanguageVersions(mrj);
+    List<Integer> languageVersions = MultiReleaseJarAnalysisInputLocationIT.getLanguageVersions(mrj);
     assertTrue(languageVersions.contains(9));
     assertTrue(languageVersions.contains(10));
   }

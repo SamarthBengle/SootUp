@@ -7,7 +7,7 @@ import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TestWriter {
+public class TestWriterIT {
 
   String templateStart =
       "package sootup.java.bytecode.frontend.inputlocation;\n"

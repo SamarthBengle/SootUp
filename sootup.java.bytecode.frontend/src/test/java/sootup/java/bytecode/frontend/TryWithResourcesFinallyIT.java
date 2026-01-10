@@ -11,7 +11,7 @@ import sootup.core.util.printer.BriefStmtPrinter;
 import sootup.java.bytecode.frontend.inputlocation.ClassFileBasedAnalysisInputLocation;
 import sootup.java.core.views.JavaView;
 
-public class TryWithResourcesFinallyTests {
+public class TryWithResourcesFinallyIT {
 
   Path classFilePath = Paths.get("../shared-test-resources/bugfixes/TryWithResourcesFinally.class");
 

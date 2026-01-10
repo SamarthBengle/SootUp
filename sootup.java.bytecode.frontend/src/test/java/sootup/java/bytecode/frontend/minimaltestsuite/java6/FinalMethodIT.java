@@ -14,7 +14,7 @@ import sootup.java.bytecode.frontend.minimaltestsuite.MinimalBytecodeTestSuiteBa
 /**
  * @author Kaustubh Kelkar
  */
-public class FinalMethod extends MinimalBytecodeTestSuiteBase {
+public class FinalMethodIT extends MinimalBytecodeTestSuiteBase {
 
   @Test
   public void test() {

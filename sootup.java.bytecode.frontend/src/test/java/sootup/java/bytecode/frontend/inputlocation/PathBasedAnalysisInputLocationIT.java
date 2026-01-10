@@ -49,11 +49,11 @@ import sootup.java.core.views.JavaView;
  * @author Manuel Benz created on 06.06.18
  * @author Kaustubh Kelkar updated on 16.04.2020
  */
-public class PathBasedAnalysisInputLocation extends AnalysisInputLocation {
+public class PathBasedAnalysisInputLocationIT extends AnalysisInputLocation {
 
   @Test
   public void testSingleClass() {
-    PathBasedAnalysisInputLocation pathBasedNamespace =
+    PathBasedAnalysisInputLocationIT pathBasedNamespace =
         new ClassFileBasedAnalysisInputLocation(cls, "", SourceType.Application);
     ArrayList<ClassType> sigs = new ArrayList<>();
     sigs.add(getIdentifierFactory().getClassType("Employee"));
@@ -65,7 +65,7 @@ public class PathBasedAnalysisInputLocation extends AnalysisInputLocation {
     Assertions.assertThrows(
         IllegalArgumentException.class,
         () ->
-            PathBasedAnalysisInputLocation.create(
+            PathBasedAnalysisInputLocationIT.create(
                 Paths.get("NonExisting.class"), SourceType.Application));
   }
 
@@ -83,8 +83,8 @@ public class PathBasedAnalysisInputLocation extends AnalysisInputLocation {
 
   @Test
   public void testJar() {
-    PathBasedAnalysisInputLocation pathBasedNamespace =
-        PathBasedAnalysisInputLocation.create(jar, SourceType.Application);
+    PathBasedAnalysisInputLocationIT pathBasedNamespace =
+        PathBasedAnalysisInputLocationIT.create(jar, SourceType.Application);
     ArrayList<ClassType> sigs = new ArrayList<>();
     sigs.add(getIdentifierFactory().getClassType("Employee", "ds"));
     sigs.add(getIdentifierFactory().getClassType("MiniApp"));
@@ -93,8 +93,8 @@ public class PathBasedAnalysisInputLocation extends AnalysisInputLocation {
 
   @Test
   public void testWar() {
-    PathBasedAnalysisInputLocation pathBasedNamespace =
-        PathBasedAnalysisInputLocation.create(war, SourceType.Application);
+    PathBasedAnalysisInputLocationIT pathBasedNamespace =
+        PathBasedAnalysisInputLocationIT.create(war, SourceType.Application);
     final ClassType warClass1 = getIdentifierFactory().getClassType("SimpleWarRead");
     testClassReceival(pathBasedNamespace, Collections.singletonList(warClass1), 19);
   }

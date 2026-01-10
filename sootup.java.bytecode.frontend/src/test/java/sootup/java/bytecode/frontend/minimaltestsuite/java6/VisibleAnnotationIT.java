@@ -9,7 +9,7 @@ import sootup.java.bytecode.frontend.minimaltestsuite.MinimalBytecodeTestSuiteBa
 import sootup.java.core.AnnotationUsage;
 import sootup.java.core.JavaSootClass;
 
-public class VisibleAnnotation extends MinimalBytecodeTestSuiteBase {
+public class VisibleAnnotationIT extends MinimalBytecodeTestSuiteBase {
 
   @Test
   public void testVisibleAnnotationOnClassOrAnnotation() {

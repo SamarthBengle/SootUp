@@ -24,7 +24,7 @@ import sootup.interceptors.typeresolving.CastCounter;
 import sootup.interceptors.typeresolving.Typing;
 import sootup.interceptors.typeresolving.types.AugmentIntegerTypes;
 
-public class CastCounterTest extends TypeAssignerTestSuite {
+public class CastCounterIT extends TypeAssignerTestSuite {
 
   AugEvalFunction function;
   BytecodeHierarchy hierarchy;

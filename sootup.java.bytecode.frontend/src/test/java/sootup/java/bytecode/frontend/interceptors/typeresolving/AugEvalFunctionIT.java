@@ -25,7 +25,7 @@ import sootup.java.core.JavaIdentifierFactory;
 /**
  * @author Zun Wang
  */
-public class AugEvalFunctionTest extends TypeAssignerTestSuite {
+public class AugEvalFunctionIT extends TypeAssignerTestSuite {
 
   AugEvalFunction evalFunction;
 

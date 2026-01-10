@@ -15,11 +15,11 @@ import sootup.core.signatures.PackageName;
 import sootup.core.types.ClassType;
 import sootup.interceptors.LocalSplitter;
 import sootup.java.bytecode.frontend.inputlocation.JavaClassPathAnalysisInputLocation;
-import sootup.java.bytecode.frontend.inputlocation.JrtFileSystemAnalysisInputLocation;
+import sootup.java.bytecode.frontend.inputlocation.JrtFileSystemAnalysisInputLocationIT;
 import sootup.java.core.types.JavaClassType;
 import sootup.java.core.views.JavaView;
 
-public class LocalSplitterTest {
+public class LocalSplitterIT {
   JavaView view;
   LocalSplitter localSplitter = new LocalSplitter();
 
@@ -50,8 +50,8 @@ public class LocalSplitterTest {
   @Test
   @Disabled("Takes too long. Good for profiling though.")
   public void JRT() {
-    JrtFileSystemAnalysisInputLocation inputLocation =
-        new JrtFileSystemAnalysisInputLocation(
+    JrtFileSystemAnalysisInputLocationIT inputLocation =
+        new JrtFileSystemAnalysisInputLocationIT(
             SourceType.Library, Collections.singletonList(localSplitter));
     JavaView view = new JavaView(Collections.singletonList(inputLocation));
 

@@ -11,7 +11,7 @@ import sootup.java.core.JavaSootClass;
 import sootup.java.core.JavaSootMethod;
 import sootup.java.core.language.JavaJimple;
 
-public class NestedAnnotation extends MinimalBytecodeTestSuiteBase {
+public class NestedAnnotationIT extends MinimalBytecodeTestSuiteBase {
 
   /**
    * The test is to check nested annotations. The annotations are of the

@@ -6,7 +6,7 @@ import sootup.java.core.JavaSootClass;
 import sootup.java.core.JavaSootMethod;
 import sootup.java.core.views.JavaView;
 
-public abstract class BaseFixJarsIT {
+public abstract class BaseFixJars {
 
   String failedMethodSignature = "";
 

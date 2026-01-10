@@ -12,7 +12,7 @@ import sootup.java.bytecode.frontend.minimaltestsuite.MinimalBytecodeTestSuiteBa
 /**
  * @author Kaustubh Kelkar
  */
-public class BitwiseOperationsInt extends MinimalBytecodeTestSuiteBase {
+public class BitwiseOperationsIntIT extends MinimalBytecodeTestSuiteBase {
 
   @Test
   public void test() {

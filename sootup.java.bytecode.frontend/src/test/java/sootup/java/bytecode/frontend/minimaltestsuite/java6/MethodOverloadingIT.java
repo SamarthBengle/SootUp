@@ -18,7 +18,7 @@ import sootup.java.bytecode.frontend.minimaltestsuite.MinimalBytecodeTestSuiteBa
 /**
  * @author Kaustubh Kelkar
  */
-public class MethodOverloading extends MinimalBytecodeTestSuiteBase {
+public class MethodOverloadingIT extends MinimalBytecodeTestSuiteBase {
   public MethodSignature getMethodSignature() {
     return identifierFactory.getMethodSignature(
         getDeclaredClassSignature(), "calculate", "int", Arrays.asList("int", "int"));

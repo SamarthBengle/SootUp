@@ -12,7 +12,7 @@ import sootup.java.bytecode.frontend.minimaltestsuite.MinimalBytecodeTestSuiteBa
 /**
  * @author Kaustubh Kelkar
  */
-public class BooleanOperators extends MinimalBytecodeTestSuiteBase {
+public class BooleanOperatorsIT extends MinimalBytecodeTestSuiteBase {
 
   @Test
   public void testRelOpEq() {

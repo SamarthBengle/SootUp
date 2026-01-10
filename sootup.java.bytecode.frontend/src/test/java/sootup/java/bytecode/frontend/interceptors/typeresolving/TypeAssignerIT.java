@@ -11,7 +11,7 @@ import sootup.core.model.Body;
 import sootup.core.util.Utils;
 import sootup.interceptors.TypeAssigner;
 
-public class TypeAssignerITIT extends TypeAssignerTestSuiteIT {
+public class TypeAssignerIT extends TypeAssignerTestSuite {
 
   @BeforeEach
   public void setup() {

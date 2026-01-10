@@ -14,7 +14,7 @@ import sootup.java.bytecode.frontend.minimaltestsuite.MinimalBytecodeTestSuiteBa
 /**
  * @author Kaustubh Kelkar
  */
-public class DeclareConstructor extends MinimalBytecodeTestSuiteBase {
+public class DeclareConstructorIT extends MinimalBytecodeTestSuiteBase {
 
   public MethodSignature getMethodSignatureInitOneParam() {
     return identifierFactory.getMethodSignature(

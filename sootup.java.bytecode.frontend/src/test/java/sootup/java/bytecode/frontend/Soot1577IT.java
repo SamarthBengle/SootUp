@@ -10,7 +10,7 @@ import sootup.core.model.SourceType;
 import sootup.java.bytecode.frontend.inputlocation.ClassFileBasedAnalysisInputLocation;
 import sootup.java.core.views.JavaView;
 
-public class Soot1577Test {
+public class Soot1577IT {
   final String directory = "../shared-test-resources/soot-1577/";
 
   @Test

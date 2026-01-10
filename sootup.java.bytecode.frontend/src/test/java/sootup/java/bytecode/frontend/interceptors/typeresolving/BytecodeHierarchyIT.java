@@ -19,7 +19,7 @@ import sootup.java.core.views.JavaView;
 /**
  * @author Zun Wang
  */
-public class BytecodeHierarchyTest {
+public class BytecodeHierarchyIT {
 
   private JavaView view;
 

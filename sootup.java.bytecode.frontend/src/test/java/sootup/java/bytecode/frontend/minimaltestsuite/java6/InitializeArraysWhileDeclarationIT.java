@@ -12,7 +12,7 @@ import sootup.java.bytecode.frontend.minimaltestsuite.MinimalBytecodeTestSuiteBa
 /**
  * @author Kaustubh Kelkar
  */
-public class InitializeArraysWhileDeclaration extends MinimalBytecodeTestSuiteBase {
+public class InitializeArraysWhileDeclarationIT extends MinimalBytecodeTestSuiteBase {
 
   @Test
   public void test() {

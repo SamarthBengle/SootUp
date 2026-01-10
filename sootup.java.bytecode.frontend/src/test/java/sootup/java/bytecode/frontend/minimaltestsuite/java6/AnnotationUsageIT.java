@@ -24,7 +24,7 @@ import sootup.java.core.JavaSootMethod;
 import sootup.java.core.jimple.basic.JavaLocal;
 import sootup.java.core.language.JavaJimple;
 
-public class AnnotationUsage extends MinimalBytecodeTestSuiteBase {
+public class AnnotationUsageIT extends MinimalBytecodeTestSuiteBase {
 
   // we can only read: RetentionPolicy.RUNTIME annotations
 

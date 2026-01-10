@@ -11,7 +11,7 @@ import sootup.java.core.JavaSootMethod;
 import sootup.java.core.views.JavaView;
 
 /** InvokeDynamics and the Operand stack.. */
-public class SameVarNamesInDifferentScopesTest {
+public class SameVarNamesInDifferentScopesIT {
   final String directory = "../shared-test-resources/bugfixes/";
 
   @Test

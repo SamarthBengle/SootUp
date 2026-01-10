@@ -13,7 +13,7 @@ import sootup.java.bytecode.frontend.minimaltestsuite.MinimalBytecodeTestSuiteBa
 /**
  * @author Kaustubh Kelkar
  */
-public class DeclareEnum extends MinimalBytecodeTestSuiteBase {
+public class DeclareEnumIT extends MinimalBytecodeTestSuiteBase {
 
   @Test
   public void test() {

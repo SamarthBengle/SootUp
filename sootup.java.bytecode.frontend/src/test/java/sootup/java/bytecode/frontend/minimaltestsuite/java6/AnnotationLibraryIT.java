@@ -13,7 +13,7 @@ import sootup.java.bytecode.frontend.minimaltestsuite.MinimalBytecodeTestSuiteBa
 /**
  * @author Kaustubh Kelkar
  */
-public class AnnotationLibrary extends MinimalBytecodeTestSuiteBase {
+public class AnnotationLibraryIT extends MinimalBytecodeTestSuiteBase {
 
   // TODO: [bh] annotation methods lose default values
 

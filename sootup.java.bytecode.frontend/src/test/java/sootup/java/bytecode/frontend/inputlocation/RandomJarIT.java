@@ -5,7 +5,7 @@ import java.io.*;
 import org.junit.jupiter.api.Test;
 import sootup.java.core.views.JavaView;
 
-public class RandomJar extends BaseFixJars {
+public class RandomJarIT extends BaseFixJars {
 
   private final String jarDownloadPath = System.getProperty("jarPath", "");
   private static final String FAILURE_METRICS_FILE = "jar_failure.json";

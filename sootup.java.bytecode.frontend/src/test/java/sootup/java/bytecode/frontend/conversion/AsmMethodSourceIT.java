@@ -18,7 +18,7 @@ import sootup.java.core.JavaSootMethod;
 import sootup.java.core.types.JavaClassType;
 import sootup.java.core.views.JavaView;
 
-public class AsmMethodSourceTest {
+public class AsmMethodSourceIT {
 
   @Test
   public void testFix_StackUnderrun_convertPutFieldInsn_init() {

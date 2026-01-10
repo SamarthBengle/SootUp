@@ -11,7 +11,7 @@ import sootup.core.util.Utils;
 import sootup.java.bytecode.frontend.inputlocation.JavaClassPathAnalysisInputLocation;
 import sootup.java.core.views.JavaView;
 
-public class FixMissingTraphandlerPredecessor {
+public class FixMissingTraphandlerPredecessorIT {
   final String directory = "../shared-test-resources/bugfixes/";
 
   @Test

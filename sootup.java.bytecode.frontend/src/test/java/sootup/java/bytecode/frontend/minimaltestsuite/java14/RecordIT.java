@@ -24,7 +24,7 @@ import sootup.java.core.types.JavaClassType;
 /**
  * @author Jonas Klauke
  */
-public class Record extends MinimalBytecodeTestSuiteBase {
+public class RecordIT extends MinimalBytecodeTestSuiteBase {
 
   @Override
   public JavaClassType getDeclaredClassSignature() {

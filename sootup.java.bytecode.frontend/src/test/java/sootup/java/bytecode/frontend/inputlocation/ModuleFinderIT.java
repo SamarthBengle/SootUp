@@ -16,54 +16,54 @@ import sootup.java.core.signatures.ModuleSignature;
 /**
  * @author Kaustubh Kelkar
  */
-public class ModuleFinder extends AnalysisInputLocation {
+public class ModuleFinderIT extends AnalysisInputLocation {
 
   @Test
   public void discoverJarModuleByName() {
-    ModuleFinder moduleFinder = new ModuleFinder(jar);
+    ModuleFinderIT moduleFinderIT = new ModuleFinderIT(jar);
     sootup.core.inputlocation.AnalysisInputLocation inputLocation =
-        moduleFinder.getModule(JavaModuleIdentifierFactory.getModuleSignature("MiniApp"));
-    assertTrue(inputLocation instanceof PathBasedAnalysisInputLocation);
+        moduleFinderIT.getModule(JavaModuleIdentifierFactory.getModuleSignature("MiniApp"));
+    assertTrue(inputLocation instanceof PathBasedAnalysisInputLocationIT);
   }
 
   @Test
   public void discoverJarModuleInAllModules() {
-    ModuleFinder moduleFinder = new ModuleFinder(jar);
-    Collection<ModuleSignature> modules = moduleFinder.getAllModules();
+    ModuleFinderIT moduleFinderIT = new ModuleFinderIT(jar);
+    Collection<ModuleSignature> modules = moduleFinderIT.getAllModules();
     assertTrue(modules.contains(JavaModuleIdentifierFactory.getModuleSignature("MiniApp")));
   }
 
   @Test
   public void discoverWarModuleByName() {
-    ModuleFinder moduleFinder = new ModuleFinder(war);
+    ModuleFinderIT moduleFinderIT = new ModuleFinderIT(war);
     sootup.core.inputlocation.AnalysisInputLocation inputLocation =
-        moduleFinder.getModule(JavaModuleIdentifierFactory.getModuleSignature("dummyWarApp"));
-    assertTrue(inputLocation instanceof PathBasedAnalysisInputLocation);
+        moduleFinderIT.getModule(JavaModuleIdentifierFactory.getModuleSignature("dummyWarApp"));
+    assertTrue(inputLocation instanceof PathBasedAnalysisInputLocationIT);
   }
 
   @Test
   public void discoverWarModuleInAllModules() {
-    ModuleFinder moduleFinder = new ModuleFinder(war);
-    Collection<ModuleSignature> modules = moduleFinder.getAllModules();
+    ModuleFinderIT moduleFinderIT = new ModuleFinderIT(war);
+    Collection<ModuleSignature> modules = moduleFinderIT.getAllModules();
     assertTrue(modules.contains(JavaModuleIdentifierFactory.getModuleSignature("dummyWarApp")));
   }
 
   @Test
   public void testModuleJar() {
-    ModuleFinder moduleFinder =
-        new ModuleFinder(
+    ModuleFinderIT moduleFinderIT =
+        new ModuleFinderIT(
             Paths.get("../shared-test-resources/java9-target/de/upb/soot/namespaces/modules/"));
-    Collection<ModuleSignature> discoveredModules = moduleFinder.getAllModules();
+    Collection<ModuleSignature> discoveredModules = moduleFinderIT.getAllModules();
     assertTrue(
         discoveredModules.contains(JavaModuleIdentifierFactory.getModuleSignature("de.upb.mod")));
   }
 
   @Test
   public void testModuleExploded() {
-    ModuleFinder moduleFinder =
-        new ModuleFinder(
+    ModuleFinderIT moduleFinderIT =
+        new ModuleFinderIT(
             Paths.get("../shared-test-resources/java9-target/de/upb/soot/namespaces/modules/"));
-    Collection<ModuleSignature> discoveredModules = moduleFinder.getAllModules();
+    Collection<ModuleSignature> discoveredModules = moduleFinderIT.getAllModules();
     assertTrue(
         discoveredModules.contains(JavaModuleIdentifierFactory.getModuleSignature("fancyMod")));
   }
@@ -71,27 +71,27 @@ public class ModuleFinder extends AnalysisInputLocation {
   @Test
   public void testAutomaticModuleNaming() {
     Assertions.assertEquals(
-        "foo.bar", ModuleFinder.createModuleNameForAutomaticModule(Paths.get("foo-bar.jar")));
+        "foo.bar", ModuleFinderIT.createModuleNameForAutomaticModule(Paths.get("foo-bar.jar")));
     Assertions.assertEquals(
         "foo",
-        ModuleFinder.createModuleNameForAutomaticModule(Paths.get("foo-1.2.3-SNAPSHOT.jar")));
+        ModuleFinderIT.createModuleNameForAutomaticModule(Paths.get("foo-1.2.3-SNAPSHOT.jar")));
   }
 
   @Test
   public void testAutomaticModuleNamingViaManifest() {
 
-    ModuleFinder moduleFinder =
-        new ModuleFinder(
+    ModuleFinderIT moduleFinderIT =
+        new ModuleFinderIT(
             Paths.get(
                 "../shared-test-resources/java9-target/de/upb/soot/namespaces/modules/automaticModuleWithManifest"));
 
     assertNotNull(
-        moduleFinder.getModule(
+        moduleFinderIT.getModule(
             JavaModuleIdentifierFactory.getModuleSignature(
                 "automaticmoduleWithNamingViaManifestModuleName")));
 
     assertNull(
-        moduleFinder.getModule(
+        moduleFinderIT.getModule(
             JavaModuleIdentifierFactory.getModuleSignature("AutomaticmoduleWithManifest")));
   }
 }

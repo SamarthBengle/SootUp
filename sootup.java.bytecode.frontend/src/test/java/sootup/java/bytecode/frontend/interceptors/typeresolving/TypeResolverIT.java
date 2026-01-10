@@ -28,7 +28,7 @@ import sootup.java.core.JavaSootMethod;
 import sootup.java.core.types.JavaClassType;
 import sootup.java.core.views.JavaView;
 
-public class TypeResolverITIT extends TypeAssignerTestSuiteIT {
+public class TypeResolverIT extends TypeAssignerTestSuite {
 
   String baseDir = "../shared-test-resources/TypeResolverTestSuite/";
   Type objectType = new JavaClassType("Object", new JavaPackageName("java.lang"));

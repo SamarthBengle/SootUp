@@ -13,7 +13,7 @@ import sootup.java.bytecode.frontend.minimaltestsuite.MinimalBytecodeTestSuiteBa
 /**
  * @author Kaustubh Kelkar
  */
-public class MethodOverriding extends MinimalBytecodeTestSuiteBase {
+public class MethodOverridingIT extends MinimalBytecodeTestSuiteBase {
 
   public MethodSignature getMethodSignature() {
 

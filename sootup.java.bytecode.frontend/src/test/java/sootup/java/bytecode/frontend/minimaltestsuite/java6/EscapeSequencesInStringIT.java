@@ -12,7 +12,7 @@ import sootup.java.bytecode.frontend.minimaltestsuite.MinimalBytecodeTestSuiteBa
 /**
  * @author Kaustubh Kelkar
  */
-public class EscapeSequencesInString extends MinimalBytecodeTestSuiteBase {
+public class EscapeSequencesInStringIT extends MinimalBytecodeTestSuiteBase {
 
   @Test
   public void test() {

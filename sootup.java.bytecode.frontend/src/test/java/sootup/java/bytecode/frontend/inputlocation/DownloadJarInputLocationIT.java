@@ -10,7 +10,7 @@ import sootup.core.model.SootMethod;
 import sootup.java.bytecode.frontend.FileUtil;
 import sootup.java.core.views.JavaView;
 
-public class DownloadJarInputLocationTest {
+public class DownloadJarInputLocationIT {
 
   @Test
   public void testDownloadJarsInputLocation() {

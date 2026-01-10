@@ -12,7 +12,7 @@ import sootup.core.types.ClassType;
 import sootup.java.bytecode.frontend.inputlocation.JavaClassPathAnalysisInputLocation;
 import sootup.java.core.views.JavaView;
 
-public class Soot1580Test {
+public class Soot1580IT {
   final String jar = "../shared-test-resources/soot-1580/jpush-android_v3.0.5.jar";
 
   @Test

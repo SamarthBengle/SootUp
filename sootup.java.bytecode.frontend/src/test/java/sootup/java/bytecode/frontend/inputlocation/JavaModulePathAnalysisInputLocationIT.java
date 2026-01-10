@@ -23,7 +23,7 @@ import sootup.java.core.signatures.ModuleSignature;
 import sootup.java.core.types.JavaClassType;
 import sootup.java.core.views.JavaModuleView;
 
-public class JavaModulePathAnalysisInputLocation {
+public class JavaModulePathAnalysisInputLocationIT {
 
   private final String testPath = "../shared-test-resources/jigsaw-examples/";
 
@@ -31,7 +31,7 @@ public class JavaModulePathAnalysisInputLocation {
   public void testJarModule() {
     List<AnalysisInputLocation> inputLocations =
         Collections.singletonList(
-            new JavaModulePathAnalysisInputLocation(Paths.get(testPath + "uses-provides/jar/")));
+            new JavaModulePathAnalysisInputLocationIT(Paths.get(testPath + "uses-provides/jar/")));
     List<ModuleInfoAnalysisInputLocation> moduleInfoAnalysisInputLocations =
         Collections.emptyList();
     JavaModuleView view = new JavaModuleView(inputLocations, moduleInfoAnalysisInputLocations);
@@ -50,7 +50,7 @@ public class JavaModulePathAnalysisInputLocation {
   public void testExplodedModule() {
     List<AnalysisInputLocation> inputLocations =
         Collections.singletonList(
-            new JavaModulePathAnalysisInputLocation(
+            new JavaModulePathAnalysisInputLocationIT(
                 Paths.get(testPath + "uses-provides/exploded_module/")));
     List<ModuleInfoAnalysisInputLocation> moduleInfoAnalysisInputLocations =
         Collections.emptyList();
@@ -71,7 +71,7 @@ public class JavaModulePathAnalysisInputLocation {
   public void testGetModuleInfo() {
     List<AnalysisInputLocation> inputLocations =
         Collections.singletonList(
-            new JavaModulePathAnalysisInputLocation(Paths.get(testPath + "requires_exports/jar")));
+            new JavaModulePathAnalysisInputLocationIT(Paths.get(testPath + "requires_exports/jar")));
     List<ModuleInfoAnalysisInputLocation> moduleInfoAnalysisInputLocations =
         Collections.emptyList();
     JavaModuleView view = new JavaModuleView(inputLocations, moduleInfoAnalysisInputLocations);
@@ -95,7 +95,7 @@ public class JavaModulePathAnalysisInputLocation {
 
   @Test
   public void testGetClassSource() {
-    ModuleInfoAnalysisInputLocation inputLocation = new JrtFileSystemAnalysisInputLocation();
+    ModuleInfoAnalysisInputLocation inputLocation = new JrtFileSystemAnalysisInputLocationIT();
 
     List<AnalysisInputLocation> inputLocations = Collections.emptyList();
     List<ModuleInfoAnalysisInputLocation> moduleInfoAnalysisInputLocations =
@@ -116,8 +116,8 @@ public class JavaModulePathAnalysisInputLocation {
 
   @Test
   public void testGetClassSources() {
-    JavaModulePathAnalysisInputLocation inputLocation =
-        new JavaModulePathAnalysisInputLocation(Paths.get(testPath + "requires_exports/jar"));
+    JavaModulePathAnalysisInputLocationIT inputLocation =
+        new JavaModulePathAnalysisInputLocationIT(Paths.get(testPath + "requires_exports/jar"));
     List<AnalysisInputLocation> inputLocations = Collections.emptyList();
     List<ModuleInfoAnalysisInputLocation> moduleInfoAnalysisInputLocations =
         Collections.singletonList(inputLocation);
@@ -128,8 +128,8 @@ public class JavaModulePathAnalysisInputLocation {
 
   @Test
   public void testGetModules() {
-    JavaModulePathAnalysisInputLocation inputLocation =
-        new JavaModulePathAnalysisInputLocation(Paths.get(testPath + "requires_exports/jar"));
+    JavaModulePathAnalysisInputLocationIT inputLocation =
+        new JavaModulePathAnalysisInputLocationIT(Paths.get(testPath + "requires_exports/jar"));
     List<AnalysisInputLocation> inputLocations = Collections.emptyList();
     List<ModuleInfoAnalysisInputLocation> moduleInfoAnalysisInputLocations =
         Collections.singletonList(inputLocation);

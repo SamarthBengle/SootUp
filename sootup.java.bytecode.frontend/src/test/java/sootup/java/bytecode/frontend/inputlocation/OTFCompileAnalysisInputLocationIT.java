@@ -11,13 +11,13 @@ import org.junit.jupiter.api.Test;
 import sootup.java.core.JavaSootClass;
 import sootup.java.core.views.JavaView;
 
-class OTFCompileAnalysisInputLocation {
+class OTFCompileAnalysisInputLocationIT {
 
   @Test
   void testSimpleString() {
     String cucontent = "public class A { }\n";
-    OTFCompileAnalysisInputLocation inputLocation =
-        new OTFCompileAnalysisInputLocation("A.java", cucontent);
+    OTFCompileAnalysisInputLocationIT inputLocation =
+        new OTFCompileAnalysisInputLocationIT("A.java", cucontent);
     JavaView javaView = new JavaView(inputLocation);
     Optional<JavaSootClass> aClass =
         javaView.getClass(javaView.getIdentifierFactory().getClassType("A"));
@@ -31,7 +31,7 @@ class OTFCompileAnalysisInputLocation {
     String cucontent = "public class A { }\n";
     assertThrows(
         IllegalArgumentException.class,
-        () -> new OTFCompileAnalysisInputLocation(fileName, cucontent));
+        () -> new OTFCompileAnalysisInputLocationIT(fileName, cucontent));
   }
 
   @Test
@@ -49,8 +49,8 @@ class OTFCompileAnalysisInputLocation {
             + "        a.s = b;\n"
             + "    }\n"
             + "}\n";
-    OTFCompileAnalysisInputLocation inputLocation =
-        new OTFCompileAnalysisInputLocation("FieldAssignment.java", cucontent);
+    OTFCompileAnalysisInputLocationIT inputLocation =
+        new OTFCompileAnalysisInputLocationIT("FieldAssignment.java", cucontent);
     JavaView javaView = new JavaView(inputLocation);
     Optional<JavaSootClass> aClass =
         javaView.getClass(javaView.getIdentifierFactory().getClassType("FieldAssignment"));
@@ -64,8 +64,8 @@ class OTFCompileAnalysisInputLocation {
   @Test
   void testSingleInputfile() {
     String str = "../shared-test-resources/TypeResolverTestSuite/Misc/FieldAssignment.java";
-    OTFCompileAnalysisInputLocation inputLocation =
-        new OTFCompileAnalysisInputLocation(Paths.get(str));
+    OTFCompileAnalysisInputLocationIT inputLocation =
+        new OTFCompileAnalysisInputLocationIT(Paths.get(str));
     JavaView javaView = new JavaView(inputLocation);
     Optional<JavaSootClass> aClass =
         javaView.getClass(javaView.getIdentifierFactory().getClassType("FieldAssignment"));
@@ -83,8 +83,8 @@ class OTFCompileAnalysisInputLocation {
     Path sub2 =
         Paths.get("../shared-test-resources/TypeResolverTestSuite/CastCounterTest/Sub2.java");
 
-    OTFCompileAnalysisInputLocation inputLocation =
-        new OTFCompileAnalysisInputLocation(Arrays.asList(super2, sub2));
+    OTFCompileAnalysisInputLocationIT inputLocation =
+        new OTFCompileAnalysisInputLocationIT(Arrays.asList(super2, sub2));
     JavaView javaView = new JavaView(inputLocation);
     Optional<JavaSootClass> super2Class =
         javaView.getClass(javaView.getIdentifierFactory().getClassType("Super2"));

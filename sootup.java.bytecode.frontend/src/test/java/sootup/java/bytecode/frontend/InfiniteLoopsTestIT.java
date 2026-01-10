@@ -14,7 +14,7 @@ import sootup.core.signatures.MethodSignature;
 import sootup.java.bytecode.frontend.inputlocation.ClassFileBasedAnalysisInputLocation;
 import sootup.java.core.views.JavaView;
 
-public class InfiniteLoopsTest {
+public class InfiniteLoopsTestIT {
 
   Path classFilePath = Paths.get("../shared-test-resources/bugfixes/InfiniteLoops.class");
 

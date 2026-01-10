@@ -9,7 +9,7 @@ import sootup.java.bytecode.frontend.minimaltestsuite.MinimalBytecodeTestSuiteBa
 /**
  * @author Kaustubh Kelkar
  */
-public class SwitchCaseStatement extends MinimalBytecodeTestSuiteBase {
+public class SwitchCaseStatementIT extends MinimalBytecodeTestSuiteBase {
 
   @Test
   public void switchCaseStatementEnum() {

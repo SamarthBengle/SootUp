@@ -7,7 +7,7 @@ import sootup.java.bytecode.frontend.inputlocation.JavaClassPathAnalysisInputLoc
 import sootup.java.core.views.JavaView;
 
 /** InvokeDynamics and the Operand stack.. */
-public class IndyTests {
+public class IndyTestsIT {
   final String directory = "../shared-test-resources/bugfixes/";
 
   @Test

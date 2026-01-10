@@ -11,7 +11,7 @@ import sootup.java.core.JavaSootClass;
 /**
  * @author Kaustubh Kelkar
  */
-public class NoModifierClass extends MinimalBytecodeTestSuiteBase {
+public class NoModifierClassIT extends MinimalBytecodeTestSuiteBase {
 
   @Test
   public void test() {

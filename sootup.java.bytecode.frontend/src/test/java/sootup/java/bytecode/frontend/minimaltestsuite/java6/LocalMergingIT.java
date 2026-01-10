@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 import sootup.core.model.SootMethod;
 import sootup.java.bytecode.frontend.minimaltestsuite.MinimalBytecodeTestSuiteBase;
 
-public class LocalMerging extends MinimalBytecodeTestSuiteBase {
+public class LocalMergingIT extends MinimalBytecodeTestSuiteBase {
   @Test
   public void test() {
     SootMethod methodConstant =

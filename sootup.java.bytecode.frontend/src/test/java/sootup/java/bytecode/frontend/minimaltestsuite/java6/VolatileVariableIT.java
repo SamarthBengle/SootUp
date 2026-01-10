@@ -17,7 +17,7 @@ import sootup.java.bytecode.frontend.minimaltestsuite.MinimalBytecodeTestSuiteBa
 /**
  * @author Kaustubh Kelkar
  */
-public class VolatileVariable extends MinimalBytecodeTestSuiteBase {
+public class VolatileVariableIT extends MinimalBytecodeTestSuiteBase {
   public MethodSignature getMethodSignature() {
     return identifierFactory.getMethodSignature(
         getDeclaredClassSignature(), "increaseCounter", "int", Collections.emptyList());
