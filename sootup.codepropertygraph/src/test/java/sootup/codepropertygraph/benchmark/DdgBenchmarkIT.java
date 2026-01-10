@@ -15,7 +15,7 @@ import sootup.core.model.SootMethod;
 import sootup.core.signatures.MethodSignature;
 import sootup.core.types.ClassType;
 
-public class DdgBenchmarkTest extends BenchmarkTestSuiteBase {
+public class DdgBenchmarkIT extends BenchmarkTestSuiteBase {
   private final ClassType IfElseStatement = getClassType("IfElseStatement");
   private final ClassType TryCatchFinally = getClassType("TryCatchFinally");
   private final ClassType SwitchCaseStatement = getClassType("SwitchCaseStatement");

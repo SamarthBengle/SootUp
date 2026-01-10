@@ -13,7 +13,7 @@ import sootup.core.model.SootMethod;
 import sootup.core.signatures.MethodSignature;
 import sootup.core.types.ClassType;
 
-public class DdgBasicTest extends BenchmarkTestSuiteBase {
+public class DdgBasicIT extends BenchmarkTestSuiteBase {
   private DdgCreator ddgCreator;
 
   @BeforeEach
