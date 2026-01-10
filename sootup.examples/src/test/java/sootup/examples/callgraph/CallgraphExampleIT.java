@@ -17,7 +17,7 @@ import sootup.java.bytecode.frontend.inputlocation.DefaultRuntimeAnalysisInputLo
 import sootup.java.bytecode.frontend.inputlocation.JavaClassPathAnalysisInputLocation;
 import sootup.java.core.views.JavaView;
 
-public class CallgraphExampleTest {
+public class CallgraphExampleIT {
 
   @Test
   public void test() {

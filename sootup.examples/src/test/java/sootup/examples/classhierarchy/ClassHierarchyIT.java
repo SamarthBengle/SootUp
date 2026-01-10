@@ -17,7 +17,7 @@ import sootup.java.core.JavaIdentifierFactory;
 import sootup.java.core.types.JavaClassType;
 import sootup.java.core.views.JavaView;
 
-public class ClassHierarchyTest {
+public class ClassHierarchyIT {
 
   @Test
   public void test() {

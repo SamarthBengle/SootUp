@@ -15,7 +15,7 @@ import sootup.interceptors.DeadAssignmentEliminator;
 import sootup.java.bytecode.frontend.inputlocation.JavaClassPathAnalysisInputLocation;
 import sootup.java.core.views.JavaView;
 
-public class BodyInterceptorTest {
+public class BodyInterceptorIT {
 
   @Test
   public void test() {

@@ -37,7 +37,7 @@ import sootup.java.core.views.JavaView;
  * @author Bastian Haverkamp
  */
 @Disabled
-public class MutatingTest {
+public class MutatingIT {
 
   @Disabled
   public void testMutation() {

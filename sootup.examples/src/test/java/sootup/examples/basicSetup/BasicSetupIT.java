@@ -19,7 +19,7 @@ import sootup.java.bytecode.frontend.inputlocation.PathBasedAnalysisInputLocatio
 import sootup.java.core.language.JavaJimple;
 import sootup.java.core.views.JavaView;
 
-public class BasicSetupTest {
+public class BasicSetupIT {
 
   @Test
   public void createByteCodeProject() {
