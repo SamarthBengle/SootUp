@@ -15,7 +15,7 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import sootup.apk.frontend.main.AndroidVersionInfo;
 
 @ExtendWith(MockitoExtension.class)
-public class AndroidVersionInfoTest {
+public class AndroidVersionInfoIT {
 
   @Mock private File mockJarsFile;
 
@@ -23,7 +23,7 @@ public class AndroidVersionInfoTest {
 
   @InjectMocks private AndroidVersionInfo androidVersionInfo;
 
-  public AndroidVersionInfoTest() {}
+  public AndroidVersionInfoIT() {}
 
   @BeforeEach
   public void setUp() {

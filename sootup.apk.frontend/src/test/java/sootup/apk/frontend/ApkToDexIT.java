@@ -21,7 +21,7 @@ import sootup.java.core.JavaSootMethod;
 import sootup.java.core.types.JavaClassType;
 import sootup.java.core.views.JavaView;
 
-public class ApkToDexTest {
+public class ApkToDexIT {
 
   public static JavaView view;
 
