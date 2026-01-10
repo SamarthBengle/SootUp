@@ -11,7 +11,7 @@ import sootup.java.bytecode.frontend.inputlocation.JavaClassPathAnalysisInputLoc
 import sootup.java.core.types.JavaClassType;
 import sootup.java.core.views.JavaView;
 
-public class CallGraphDifferenceTest {
+public class CallGraphDifferenceIT {
 
   @Test
   public void testCGDiff() {

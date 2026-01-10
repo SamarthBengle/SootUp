@@ -19,7 +19,7 @@ import sootup.java.core.views.JavaView;
 /**
  * @author : Hasitha Rajapakse, Jonas Klauke *
  */
-public class ConcreteDispatchTest {
+public class ConcreteDispatchIT {
   public ClassType getClassType(String className) {
     return view.getIdentifierFactory().getClassType(className);
   }

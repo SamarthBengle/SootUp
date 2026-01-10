@@ -27,7 +27,7 @@ import sootup.java.core.JavaIdentifierFactory;
 import sootup.java.core.types.JavaClassType;
 import sootup.java.core.views.JavaView;
 
-public abstract class CallGraphTestBase<T extends AbstractCallGraphAlgorithm> {
+public abstract class CallGraphTestBaseIT<T extends AbstractCallGraphAlgorithm> {
 
   private T algorithm;
   protected JavaIdentifierFactory identifierFactory = JavaIdentifierFactory.getInstance();
@@ -921,14 +921,14 @@ public abstract class CallGraphTestBase<T extends AbstractCallGraphAlgorithm> {
             abstractMethod,
             getInvokableStmt(mainMethodSignature, superMethod)));
 
-    if (this instanceof ClassHierarchyAnalysisAlgorithmTest) {
+    if (this instanceof ClassHierarchyAnalysisAlgorithmIT) {
       assertTrue(
           cg.containsCall(
               mainMethodSignature,
               superMethod,
               getInvokableStmt(mainMethodSignature, superMethod)));
     }
-    if (this instanceof RapidTypeAnalysisAlgorithmTest) {
+    if (this instanceof RapidTypeAnalysisAlgorithmIT) {
       assertFalse(
           cg.containsCall(
               mainMethodSignature,

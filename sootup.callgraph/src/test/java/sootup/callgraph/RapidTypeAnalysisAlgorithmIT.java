@@ -10,8 +10,7 @@ import sootup.java.core.views.JavaView;
 /**
  * @author Kadiray Karakaya, Jonas Klauke
  */
-public class RapidTypeAnalysisAlgorithmTestIT
-    extends CallGraphTestBaseIT<RapidTypeAnalysisAlgorithm> {
+public class RapidTypeAnalysisAlgorithmIT extends CallGraphTestBaseIT<RapidTypeAnalysisAlgorithm> {
 
   @Override
   protected RapidTypeAnalysisAlgorithm createAlgorithm(JavaView view) {
